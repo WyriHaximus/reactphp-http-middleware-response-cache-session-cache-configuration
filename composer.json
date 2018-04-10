@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "wyrihaximus/react-http-middleware-response-cache": "dev-cache-configuration",
+        "wyrihaximus/react-http-middleware-response-cache": "^2.0",
         "wyrihaximus/react-http-middleware-session": "^1.0"
     },
     "require-dev": {

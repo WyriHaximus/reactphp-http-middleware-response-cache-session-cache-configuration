@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "abd20986234f598d18b3b7bc84091d29",
+    "content-hash": "4084ec0bf3fff636a69607b76c8b5b9e",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -769,16 +769,16 @@
         },
         {
             "name": "wyrihaximus/react-http-middleware-response-cache",
-            "version": "dev-cache-configuration",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-http-middleware-response-cache.git",
-                "reference": "3db15d83fef8e6f32a4815d15b301d624fd6e662"
+                "reference": "b72629dd25e37570a88c0221566b571c3304c69a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/3db15d83fef8e6f32a4815d15b301d624fd6e662",
-                "reference": "3db15d83fef8e6f32a4815d15b301d624fd6e662",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/b72629dd25e37570a88c0221566b571c3304c69a",
+                "reference": "b72629dd25e37570a88c0221566b571c3304c69a",
                 "shasum": ""
             },
             "require": {
@@ -811,7 +811,7 @@
                 }
             ],
             "description": "Response caching middleware for @reactphp's HTTP server",
-            "time": "2018-04-10T05:53:47+00:00"
+            "time": "2018-04-10T18:43:06+00:00"
         },
         {
             "name": "wyrihaximus/react-http-middleware-session",
@@ -4307,9 +4307,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wyrihaximus/react-http-middleware-response-cache": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
