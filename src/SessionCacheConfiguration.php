@@ -20,7 +20,6 @@ final class SessionCacheConfiguration implements CacheConfigurationInterface
     public function requestIsCacheable(ServerRequestInterface $request): bool
     {
         if (
-            class_exists(SessionMiddleware::class) &&
             $request->getAttribute(SessionMiddleware::ATTRIBUTE_NAME) !== null &&
             $request->getAttribute(SessionMiddleware::ATTRIBUTE_NAME)->isActive() === true
         ) {
@@ -33,7 +32,6 @@ final class SessionCacheConfiguration implements CacheConfigurationInterface
     public function responseIsCacheable(ServerRequestInterface $request, ResponseInterface $response): bool
     {
         if (
-            class_exists(SessionMiddleware::class) &&
             $request->getAttribute(SessionMiddleware::ATTRIBUTE_NAME) !== null &&
             $request->getAttribute(SessionMiddleware::ATTRIBUTE_NAME)->isActive() === true
         ) {
