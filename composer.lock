@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe109fb31fb28bcb936afa9da8de212b",
+    "content-hash": "abd20986234f598d18b3b7bc84091d29",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -773,12 +773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-http-middleware-response-cache.git",
-                "reference": "a910cafb0418fda2056c46bce6967ed34420e78c"
+                "reference": "3db15d83fef8e6f32a4815d15b301d624fd6e662"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/a910cafb0418fda2056c46bce6967ed34420e78c",
-                "reference": "a910cafb0418fda2056c46bce6967ed34420e78c",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/3db15d83fef8e6f32a4815d15b301d624fd6e662",
+                "reference": "3db15d83fef8e6f32a4815d15b301d624fd6e662",
                 "shasum": ""
             },
             "require": {
@@ -792,8 +792,7 @@
             },
             "require-dev": {
                 "api-clients/test-utilities": "^4.2",
-                "ringcentral/psr7": "^1.2",
-                "wyrihaximus/react-http-middleware-session": "dev-master"
+                "ringcentral/psr7": "^1.2"
             },
             "type": "library",
             "autoload": {
@@ -812,7 +811,7 @@
                 }
             ],
             "description": "Response caching middleware for @reactphp's HTTP server",
-            "time": "2018-04-09T17:02:41+00:00"
+            "time": "2018-04-10T05:53:47+00:00"
         },
         {
             "name": "wyrihaximus/react-http-middleware-session",
@@ -2700,16 +2699,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.5.7",
+            "version": "6.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6bd77b57707c236833d2b57b968e403df060c9d9"
+                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6bd77b57707c236833d2b57b968e403df060c9d9",
-                "reference": "6bd77b57707c236833d2b57b968e403df060c9d9",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4f21a3c6b97c42952fd5c2837bb354ec0199b97b",
+                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b",
                 "shasum": ""
             },
             "require": {
@@ -2780,7 +2779,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-02-26T07:01:09+00:00"
+            "time": "2018-04-10T11:38:34+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
