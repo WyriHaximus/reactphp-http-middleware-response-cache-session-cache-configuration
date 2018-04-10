@@ -35,6 +35,7 @@ final class SessionCacheConfigurationTest extends TestCase
 
         self::assertTrue($cacheConfiguration->requestIsCacheable($request));
     }
+
     public function testActiveResponseSession()
     {
         $session = new Session('', [], new RandomBytes());
