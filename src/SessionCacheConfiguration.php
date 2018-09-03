@@ -46,6 +46,11 @@ final class SessionCacheConfiguration implements CacheConfigurationInterface
         return $this->cacheConfiguration->cacheKey($request);
     }
 
+    public function cacheTtl(ServerRequestInterface $request, ResponseInterface $response): ?int
+    {
+        return $this->cacheConfiguration->cacheTtl($request, $response);
+    }
+
     public function cacheEncode(ResponseInterface $response): string
     {
         return $this->cacheConfiguration->cacheEncode($response);
