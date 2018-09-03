@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "wyrihaximus/react-http-middleware-response-cache": "^2.0",
         "wyrihaximus/react-http-middleware-session": "^1.2"
     },
@@ -30,7 +30,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "7.1"
+            "php": "7.2"
         }
     },
     "scripts": {
