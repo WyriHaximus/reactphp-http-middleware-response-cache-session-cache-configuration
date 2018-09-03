@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57aa8fac8bc8e52cdab93610b479bcc2",
+    "content-hash": "710865d277503cd1e3e56eb19a64ccd0",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -204,16 +204,16 @@
         },
         {
             "name": "react/cache",
-            "version": "v0.5.0",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/cache.git",
-                "reference": "7d7da7fb7574d471904ba357b39bbf110ccdbf66"
+                "reference": "75494f26b4ef089db9bf8c90b63c296246e099e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/cache/zipball/7d7da7fb7574d471904ba357b39bbf110ccdbf66",
-                "reference": "7d7da7fb7574d471904ba357b39bbf110ccdbf66",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/75494f26b4ef089db9bf8c90b63c296246e099e8",
+                "reference": "75494f26b4ef089db9bf8c90b63c296246e099e8",
                 "shasum": ""
             },
             "require": {
@@ -240,7 +240,7 @@
                 "promise",
                 "reactphp"
             ],
-            "time": "2018-06-25T12:52:40+00:00"
+            "time": "2017-12-20T16:47:13+00:00"
         },
         {
             "name": "react/dns",
@@ -769,23 +769,23 @@
         },
         {
             "name": "wyrihaximus/react-http-middleware-response-cache",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-http-middleware-response-cache.git",
-                "reference": "0609b40ce3c94cc1f62a043b2c7548f4cd470e0c"
+                "reference": "b72629dd25e37570a88c0221566b571c3304c69a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/0609b40ce3c94cc1f62a043b2c7548f4cd470e0c",
-                "reference": "0609b40ce3c94cc1f62a043b2c7548f4cd470e0c",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-response-cache/zipball/b72629dd25e37570a88c0221566b571c3304c69a",
+                "reference": "b72629dd25e37570a88c0221566b571c3304c69a",
                 "shasum": ""
             },
             "require": {
                 "lcobucci/clock": "^1.1",
                 "php": "^7.1",
                 "psr/http-message": "^1.0",
-                "react/cache": "^0.5.0",
+                "react/cache": "^0.4.1",
                 "react/http": "^0.8.0",
                 "react/promise": "^2.5",
                 "wyrihaximus/msgpack": "^1.0"
@@ -811,27 +811,27 @@
                 }
             ],
             "description": "Response caching middleware for @reactphp's HTTP server",
-            "time": "2018-09-02T20:30:01+00:00"
+            "time": "2018-04-10T18:43:06+00:00"
         },
         {
             "name": "wyrihaximus/react-http-middleware-session",
-            "version": "dev-cache-0.5",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-http-middleware-session.git",
-                "reference": "42df2d2c9bcb259b5591b30b6cd45c9489308d5e"
+                "reference": "54d1ba801cdb85a77acc3816cf2f054ac4ff306e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-session/zipball/42df2d2c9bcb259b5591b30b6cd45c9489308d5e",
-                "reference": "42df2d2c9bcb259b5591b30b6cd45c9489308d5e",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-http-middleware-session/zipball/54d1ba801cdb85a77acc3816cf2f054ac4ff306e",
+                "reference": "54d1ba801cdb85a77acc3816cf2f054ac4ff306e",
                 "shasum": ""
             },
             "require": {
                 "hansott/psr7-cookies": "^1.0",
                 "php": "^7.0",
                 "psr/http-message": "^1.0",
-                "react/cache": "^0.5.0",
+                "react/cache": "^0.4.2",
                 "react/http": "^0.8.0",
                 "react/promise": "^2.5"
             },
@@ -856,7 +856,7 @@
                 }
             ],
             "description": "react/http middleware that takes care of session handling",
-            "time": "2018-09-02T20:55:11+00:00"
+            "time": "2018-08-12T10:49:57+00:00"
         }
     ],
     "packages-dev": [
@@ -4415,10 +4415,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wyrihaximus/react-http-middleware-response-cache": 20,
-        "wyrihaximus/react-http-middleware-session": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
