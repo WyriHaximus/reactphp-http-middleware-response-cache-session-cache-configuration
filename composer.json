@@ -10,8 +10,8 @@
     ],
     "require": {
         "php": "^7.2",
-        "wyrihaximus/react-http-middleware-response-cache": "^2.0",
-        "wyrihaximus/react-http-middleware-session": "^1.2"
+        "wyrihaximus/react-http-middleware-response-cache": "^3.0",
+        "wyrihaximus/react-http-middleware-session": "^2.0"
     },
     "require-dev": {
         "api-clients/test-utilities": "^4.2",
