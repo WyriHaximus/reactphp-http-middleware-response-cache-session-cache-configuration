@@ -11,9 +11,12 @@ use WyriHaximus\React\Http\Middleware\SessionCacheConfiguration;
 use WyriHaximus\React\Http\Middleware\SessionId\RandomBytes;
 use WyriHaximus\React\Http\Middleware\SessionMiddleware;
 
+/**
+ * @internal
+ */
 final class SessionCacheConfigurationTest extends TestCase
 {
-    public function testActiveRequestSession()
+    public function testActiveRequestSession(): void
     {
         $session = new Session('', [], new RandomBytes());
         $session->begin();
@@ -25,7 +28,7 @@ final class SessionCacheConfigurationTest extends TestCase
         self::assertFalse($cacheConfiguration->requestIsCacheable($request));
     }
 
-    public function testInactiveRequestSession()
+    public function testInactiveRequestSession(): void
     {
         $session = new Session('', [], new RandomBytes());
 
@@ -36,7 +39,7 @@ final class SessionCacheConfigurationTest extends TestCase
         self::assertTrue($cacheConfiguration->requestIsCacheable($request));
     }
 
-    public function testActiveResponseSession()
+    public function testActiveResponseSession(): void
     {
         $session = new Session('', [], new RandomBytes());
         $session->begin();
@@ -49,7 +52,7 @@ final class SessionCacheConfigurationTest extends TestCase
         self::assertFalse($cacheConfiguration->responseIsCacheable($request, $response));
     }
 
-    public function testInactiveResponseSession()
+    public function testInactiveResponseSession(): void
     {
         $session = new Session('', [], new RandomBytes());
 
